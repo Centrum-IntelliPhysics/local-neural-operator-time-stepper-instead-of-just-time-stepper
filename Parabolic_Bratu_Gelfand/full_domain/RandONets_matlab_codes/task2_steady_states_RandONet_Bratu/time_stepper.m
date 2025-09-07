@@ -9,10 +9,11 @@ for i=2:Nt
    %FD corrections of the boundary conditions
     %uu(1,i)=(4*uu(2,i)-uu(3,i))/3;
     %uu(end,i)=(4*uu(end-1,i)-uu(end-2))/3;
-    uu(1,i)=uu(1,i)*0.99+(4*uu(2,i)-uu(3,i))/3*0.01;
-    uu(end,i)=uu(end,i)*0.99+(4*uu(end-1,i)-uu(end-2))/3*0.01;
+    uu(1,i)=0; %uu(1,i)*0.99+(4*uu(2,i)-uu(3,i))/3*0.01;
+    uu(end,i)=0; %uu(end,i)*0.99+(4*uu(end-1,i)-uu(end-2))/3*0.01;
 end
 if flag==1
     uu=uu(:,end);
 end
+
 end
