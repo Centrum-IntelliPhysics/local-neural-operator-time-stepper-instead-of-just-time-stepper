@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+title: "local-neural-operator-time-stepper-instead-of-just-time-stepper"
+message: "If you use this software, please cite both the software and the associated publication."
+type: software
+
+authors:
+  - family-names: Fabiani
+    given-names: Gianluca
+    affiliation: "Johns Hopkins University"
+  - family-names: Vandecasteele
+    given-names: Hannes
+    affiliation: "Johns Hopkins University"
+  - family-names: Goswami
+    given-names: Somdatta
+    affiliation: "Johns Hopkins University"
+  - family-names: Seittos
+    given-names: Constantinos
+    affiliation: "University of Naples Federico II"
+  - family-names: Kevrekidis
+    given-names: Ioannis G.
+    affiliation: "Johns Hopkins University"
+
+version: "1.0"
+date-released: 2026-03-28
+
+repository-code: "https://github.com/Centrum-IntelliPhysics/local-neural-operator-time-stepper-instead-of-just-time-stepper"
+
+license: MIT
+
+keywords:
+  - Neural operators
+  - Equation-free framework
+  - Krylov subspace methods
+  - Bifurcation analysis
+  - Deep operator networks
+  - Random projection-based operator networks
+  - Gap-Tooth NOs
+  - Numerical analysis
+  - Scientific machine learning
+
+abstract: >-
+  This software implements data-driven local Neural Operators (NOs) trained on short-time data, 
+  learning local time-stepping dynamics (local in time). It also supports local-in-space learning via the gap-tooth scheme: 
+  a domain partitioning method with inactive gaps between patches. We use state-of-the-art NOs, including RandONets, and compare 
+  them with DeepONets, for efficient operator learning from data. We integrate local NOs with iterative numerical methods in the 
+  Krylov subspace to enable fixed-point computation, stability, and bifurcation analysis in nonlinear PDEs - without 
+  requiring closed-form equations. All bypassing derivation of explicit equations and their numerical solution.
+
+preferred-citation:
+  type: article
+  title: "Enabling Local Neural Operators to perform Equation-Free System-Level Analysis"
+  authors:
+  - family-names: Fabiani
+    given-names: Gianluca
+    affiliation: "Johns Hopkins University"
+  - family-names: Vandecasteele
+    given-names: Hannes
+    affiliation: "Johns Hopkins University"
+  - family-names: Goswami
+    given-names: Somdatta
+    affiliation: "Johns Hopkins University"
+  - family-names: Seittos
+    given-names: Constantinos
+    affiliation: "University of Naples Federico II"
+  - family-names: Kevrekidis
+    given-names: Ioannis G.
+    affiliation: "Johns Hopkins University"
+  journal: "arXiv preprint"
+  year: 2025
+  doi: "10.48550/arXiv.2505.02308"
+  url: "https://arxiv.org/abs/2505.02308"
