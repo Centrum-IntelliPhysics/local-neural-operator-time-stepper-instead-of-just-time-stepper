@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20328559.svg)](https://doi.org/10.5281/zenodo.20328559)
+
 # Local Neural Operators for Equation-Free System-level analysis
 
 This repository contains code for the paper:
