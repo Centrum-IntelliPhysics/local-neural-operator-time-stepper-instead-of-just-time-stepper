@@ -8,6 +8,8 @@ This repository contains code for the paper:
 *G. Fabiani, H. Vandecasteele, S. Goswami, C. Siettos, I.G. Kevrekidis*
 \[[arXiv:2505.02308](https://arxiv.org/abs/2505.02308)]
 
+**Accepted in Nature Machine Intelligence**
+
 If you use or adapt this code for your research, please cite our paper.
 
 ⭐ An alternative title for this project could have been:
