@@ -65,7 +65,6 @@ preferred-citation:
   - family-names: Kevrekidis
     given-names: Ioannis G.
     affiliation: "Johns Hopkins University"
-  journal: "arXiv preprint"
-  year: 2025
-  doi: "10.48550/arXiv.2505.02308"
-  url: "https://arxiv.org/abs/2505.02308"
+  journal: "Nature Machine Intelligence"
+  year: 2026
+  doi: "10.1038/s42256-026-01265-1"
