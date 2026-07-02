@@ -7,6 +7,7 @@ This repository contains code for the paper:
 > **"Enabling Local Neural Operators to perform Equation-Free System-Level Analysis"**
 > *G. Fabiani, H. Vandecasteele, S. Goswami, C. Siettos, I.G. Kevrekidis*
 > _Nature Machine Intelligence_ 2026
+> 10.1038/s42256-026-01265-1
 > \[[arXiv:2505.02308](https://arxiv.org/abs/2505.02308)]
 
 If you use or adapt this code for your research, please cite our paper.
